@@ -3,6 +3,7 @@ project "assimp"
     language "C++"
     cppdialect "C++23"
     staticruntime "on"
+    toolset "v145"
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
